@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+#schedule-container{
+    padding-top: 30px;
+}
+
+#schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    list-style: none;
+    padding: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#schedule-grid li {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    height: 128px;
+}
+
+.day-red { border-color: #ff382f !important; }
+.day-blue { border-color: dodgerblue !important; }
+.day-green { border-color: mediumspringgreen !important; }
+.day-pink { border-color: #ff50ae !important; }
+
+.dotw {
+    font-family: "Rajdhani";
+}
+
+.dotw-event {
+    margin-top: 10px;
+    font-family: "Saira Condensed";
+    color: lightgray;
+}

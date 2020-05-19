@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    /*overflow-x: hidden;*/
+}
+
+a{text-decoration: none}
+
+#container-one {
+    background: black;
+}
+
+#parallax-banner {
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    background-image: url("../assets/llama_bg.png");
+    background-position: 50%;
+    /*background-position-y: 20px;*/
+    opacity: 1;
+    /*filter: grayscale(100);*/
+    /*margin-top: 50px;*/
+    transition: 0.3s ease-in-out;
+}
+
+/*#parallax-banner:hover {*/
+/*    filter: grayscale(0);*/
+/*}*/
+
+/*#parallax-banner:hover p{*/
+/*    font-size: 2.1em;*/
+/*}*/
+
+#parallax-banner p {
+    position: relative;
+    top: 125px;
+    vertical-align: center;
+    font-family: "Jura";
+    font-weight: 300;
+    font-size: 2em;
+    /*padding-left: 5%;*/
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+    margin: 0;
+}
+
+#info-container {
+    background: black;
+    height: 200px;
+    padding-top: 20px;
+}
+
+#gun-image {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#info-container div {
+    font-family: "Rajdhani";
+    font-weight: 300;
+    font-size: 1.25em;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#discord-container {
+    padding: 20px;
+    height: 100px;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, black 50%, #738ADB 50%);
+    transition: background-position 0.7s;
+}
+
+#discord-container:hover {
+    background-position: 100% 0;
+}
+
+#discord-container:hover div {
+    /*color: white;*/
+}
+
+#discord-container img {
+    height: 100%;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+#discord-container div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*color: #738ADB;*/
+    color: white;
+    font-family: "Saira Condensed";
+    font-size: 1.5em;
+    transition: color 0.7s;
+}
+
+#steps-container {
+    background: black;
+}
+
+#steps {
+    list-style: none;
+    padding: 30px 0 30px 0;
+    margin: 0;
+    text-align: center;
+}
+
+#steps li {
+    display: inline-block;
+    font-family: "Rajdhani";
+    font-weight: 300;
+    border: 2px solid white;
+    color: white;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+#steps li:hover {
+    border-color: #00ff92;
+}
+
+#steps h3 {
+    padding-top: 30px;
+}
+
+#more-container {
+    background: #0f0f0f;
+    text-align: center;
+    color: white;
+    font-family: "Jura";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#dance-gif {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: auto;
+}
+
+#info-container-2 {
+    background: black;
+    height: 200px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Rajdhani";
+    font-size: 1.25em;
+}
+
+#llama-image {
+    height: 100px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

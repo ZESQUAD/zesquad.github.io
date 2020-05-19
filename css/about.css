@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+#about-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: white;
+    padding-top: 30px;
+}
+
+#staff-list ul{
+    list-style: none;
+    margin-top: 22px;
+}
+
+#staff-list ul li {
+    margin-bottom: 15px;
+}
+
+#staff-list h2 {
+    padding-left: 40px;
+}
+
+.staff-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.staff-name, .staff-rank {
+    vertical-align: top;
+    line-height: 50px;
+    font-family: "Rajdhani";
+}
+
+.staff-rank {
+    margin-left: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 0.55em;
+    padding: 3px;
+}
+
+.leader{color: #ff382f;}
+.co-leader{color: #1ad14d;}
+.admin{color: #ffdc1c;}
+
+#about-para {
+    border-left: 1px solid #4c4c4c;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h2 {
+    font-family: "Raleway";
+}
+
+p {
+    font-family: "Jura";
+    font-size: 1.3em;
+}

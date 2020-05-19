@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+#nav-container {
+    background: black;
+}
+
+#nav {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 62px;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: 0.3s ease-in-out;
+    color: white;
+    font-family: "Saira Condensed";
+    position: relative;
+}
+
+#nav li:hover {
+    background: #050505;
+}
+
+#nav li::after {
+    height: 2px;
+    width: 0;
+    position: absolute;
+    background-color: white;
+    content: "";
+    display: block;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    bottom: 0px;
+}
+
+#nav li:hover::after {
+    width: 100%;
+}
+
+#logo {
+    height: 150px;
+}
+
+#dev-sig {
+    color: white;
+    font-family: "Rajdhani";
+    padding: 5px;
+    font-size: 0.85em;
+    background: #050505;
+    color: slategray;
+}
+
+#footer {
+    background: #050505;
+    padding-top: 20px;
+    /*border-top: 1px solid #b0b0b0;*/
+    /*border-bottom: 1px solid #b0b0b0;*/
+}
+
+#footer h1 {
+    color: #141414;
+    text-align: center;
+    letter-spacing: 1.9em;
+    font-family: "Orbitron";
+    padding-left: 1.9em;
+    margin: 0;
+    background: black;
+    padding: 20px;
+}
+
+#footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#foot-nav {
+    list-style: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#foot-nav li {
+    margin-top: 10px;
+}
+
+#foot-nav a{
+    color: slategray;
+    font-family: "Rajdhani";
+}
+
+#foot-logo {
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
